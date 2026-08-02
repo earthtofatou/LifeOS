@@ -78,4 +78,4 @@ Instructions à venir une fois le socle backend et frontend en place.
 
 ## Licence
 
-À définir.
+MIT
