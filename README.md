@@ -1,29 +1,29 @@
 # LifeOS
 
-Application web fullstack de gestion de vie personnelle — un "système d'exploitation" centralisant tâches, calendrier, finances, habitudes, objectifs, journal, études et documents en une seule plateforme cohérente.
+Fullstack personal life management web app — a "life operating system" centralizing tasks, calendar, finances, habits, goals, journal, coursework, and documents into a single coherent platform.
 
-## À propos
+## About
 
-LifeOS est né d'un constat simple : la gestion du quotidien est aujourd'hui éclatée entre plusieurs outils (Notion pour les notes, Todoist pour les tâches, Google Calendar pour le planning, une app séparée pour le budget). LifeOS regroupe ces usages dans une interface unique, pensée pour être rapide, sobre et cohérente.
+LifeOS was born from a simple observation: managing everyday life today is scattered across multiple tools (Notion for notes, Todoist for tasks, Google Calendar for scheduling, a separate app for budgeting). LifeOS brings these use cases together into a single interface, designed to be fast, clean, and consistent.
 
-Ce projet est développé en solo, en partant de zéro sur l'ensemble de la stack, avec pour objectif de démontrer une maîtrise réelle du développement fullstack moderne (React / Node.js / Express / MongoDB) à travers un produit complet plutôt qu'une série d'exercices isolés.
+This project is being built solo, starting from scratch across the entire stack, with the goal of demonstrating real fullstack development proficiency (React / Node.js / Express / MongoDB) through a complete product rather than a series of isolated exercises.
 
-## Fonctionnalités
+## Features
 
-- **Authentification** — inscription, connexion, gestion de profil, routes protégées
-- **Dashboard** — vue d'ensemble personnalisée du quotidien
-- **Tâches** — gestion complète avec priorités, deadlines, sous-tâches, tags et filtres
-- **Calendrier** — vues jour / semaine / mois, synchronisées avec les tâches
-- **Emploi du temps** — grille hebdomadaire personnalisable
-- **Finances** — suivi des revenus et dépenses, budgets par catégorie, visualisation graphique
-- **Habitudes** — suivi de fréquence et de séries (streaks)
-- **Objectifs** — suivi de progression sur le court, moyen et long terme
-- **Journal** — entrées personnelles avec suivi d'humeur
-- **Documents** — stockage et organisation de fichiers
-- **Notifications** — rappels et alertes in-app
-- **Études** — suivi des cours, notes, examens et moyennes
+- **Authentication** — sign up, sign in, profile management, protected routes
+- **Dashboard** — personalized overview of the day
+- **Tasks** — full task management with priorities, deadlines, subtasks, tags, and filters
+- **Calendar** — day / week / month views, synced with tasks
+- **Schedule** — customizable weekly timetable
+- **Finances** — income and expense tracking, category budgets, chart visualization
+- **Habits** — frequency and streak tracking
+- **Goals** — short, medium, and long-term progress tracking
+- **Journal** — personal entries with mood tracking
+- **Documents** — file storage and organization
+- **Notifications** — in-app reminders and alerts
+- **Coursework** — tracking of courses, grades, exams, and averages
 
-## Stack technique
+## Tech stack
 
 **Frontend**
 - React
@@ -37,45 +37,45 @@ Ce projet est développé en solo, en partant de zéro sur l'ensemble de la stac
 - Express.js
 - MongoDB / Mongoose
 
-**Authentification & sécurité**
+**Auth & security**
 - JWT (JSON Web Token)
 - bcrypt
 
-**Gestion de fichiers**
+**File handling**
 - Multer
 
 ## Architecture
 
-Le projet suit une architecture MVC (Model-View-Controller) des deux côtés :
+The project follows an MVC (Model-View-Controller) architecture on both sides:
 
 ```
 frontend/
   src/
-    pages/        # Pages de l'application
-    components/   # Composants réutilisables
-    hooks/        # Hooks personnalisés
-    services/     # Appels API
-    contexts/      # Contextes React (état global)
-    layouts/       # Structures de mise en page
+    pages/        # Application pages
+    components/   # Reusable components
+    hooks/        # Custom hooks
+    services/     # API calls
+    contexts/     # React contexts (global state)
+    layouts/      # Layout structures
 
 backend/
-  routes/         # Définition des routes API
-  controllers/    # Logique métier des routes
-  models/         # Schémas Mongoose
-  middlewares/    # Middlewares (auth, gestion d'erreurs, etc.)
-  services/       # Logique réutilisable côté serveur
-  utils/          # Fonctions utilitaires
-  config/         # Configuration (base de données, variables d'environnement)
+  routes/         # API route definitions
+  controllers/    # Route business logic
+  models/         # Mongoose schemas
+  middlewares/    # Middlewares (auth, error handling, etc.)
+  services/       # Reusable server-side logic
+  utils/          # Utility functions
+  config/         # Configuration (database, environment variables)
 ```
 
-## Statut du projet
+## Project status
 
-Projet en développement actif. Version en cours : V1 (fonctionnalités cœur avant extensions futures : Pomodoro, notes Markdown, synchronisation cloud, application mobile, fonctionnalités IA).
+Actively in development. Current version: V1 (core features, ahead of future extensions: Pomodoro, Markdown notes, cloud sync, mobile app, AI features).
 
 ## Installation
 
-Instructions à venir une fois le socle backend et frontend en place.
+Instructions coming once the backend and frontend foundations are in place.
 
-## Licence
+## License
 
 MIT
